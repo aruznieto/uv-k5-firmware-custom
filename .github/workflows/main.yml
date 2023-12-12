@@ -2,9 +2,6 @@ name: Build Firmware
 
 on:
   push:
-      tags:
-        - v**
-        - p**
 
 jobs:
   build:
